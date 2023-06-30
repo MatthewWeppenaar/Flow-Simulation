@@ -1,0 +1,17 @@
+This project was origionally created in  2020, and uses Parallel programing to simulate water flowing down a terrain
+This is achieved by using multi-threading, and a GUI to show the simulation in action. The user can add water to the GUI using their mouse. Then the simulation is started by pressing "Play". The user can add more water while the simulation is running and when it is paused. The user and pause the simulation by clicking "Pause" and reset simulation by clicking "Reset". To end the simulation the user can press the "End" button. All buttons are present on the GUI.
+
+Compiling and Running:
+
+cd to working directory and enter:
+    "make"
+-This will compile source code and create .class files
+
+To run a simulation with a medium sized terrain:
+    "make run"
+
+To run a simulation with a large sized terrain:
+    "make run2"
+
+To remove class files:
+    "make clean"
